@@ -1,0 +1,42 @@
+.header {
+    background-color: var(--header-bg);
+    color: var(--btn-text);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    color: var(--btn-text);
+}
+
+.header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+/* Dark Mode Toggle Button */
+.theme-toggle {
+    background-color: transparent;
+    color: var(--btn-text);
+    border: 2px solid var(--btn-text);
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: var(--btn-text);
+    color: var(--btn-bg);
+}
